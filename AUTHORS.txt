@@ -4,4 +4,5 @@
 #
 # Names should be added to this file as:
 # Name or Organization <email address>
+Phil Garnham, Monotype Imaging Inc., phil.garnham@monotype.com
 
