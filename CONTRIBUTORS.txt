@@ -8,4 +8,16 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+Phil Garnham <phil.garnham@mopnotype.com>
+Jules Haskayne <jules.haskayne@monotype.com>
+Damien Collot <damien.collot@monotype.com>
+Anna Damoli <anna.damoli@monotype.com>
+Spike Spondike <spike.spondike@monotype.com>
+Laurene Girbal <laurene.girbal@monotype.com>
+Friedrich Althausen <friedrich.althausen@monotype.com>
+Emilios Theofanous <emilios.theofanous@monotype.com>
+Tom Rickner <tom.rickner@monotype.com>
+Norbert Krausz <norbert.krausz@monotype.com>
 Michael Hoffmann <michael.hoffmann@monotype.com>
+
