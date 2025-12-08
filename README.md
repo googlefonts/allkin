@@ -1,6 +1,3 @@
-## Setting up your font
-
-
 # Allkin
 
 Allkin is a collection of 195 icons and 1 master symbol, which explores the power of design in times of peace and conflict. Whether on the front lines or far removed, users of Allkin can contribute meaningfully through symbolic gestures, expressing thoughts and messages for peace that cross cultural and language barriers.
@@ -12,17 +9,6 @@ Allkin is a collection of 195 icons and 1 master symbol, which explores the powe
 
 Monotype Imaging Inc. is a leader in the field of type design and technology across the globe. Monotype specializes in the design, development, licensing, and management of typefaces and font technologies for creative professionals and businesses.
 
-
-## Changelog
-
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver.
-Changelog example:
-
-**26 May 2021. Version 2.13**
-
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
 
 ## License
 
