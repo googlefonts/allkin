@@ -40,8 +40,6 @@ Additionally, icons can be combined to construct composite messages, such as tho
 
 ![](documentation/Allkin_Monotype_UserGuide_V1.0-8.png)
 
-![](documentation/Allkin_Monotype_UserGuide_V1.0-9.png)
-
 ![](documentation/Allkin_Monotype_UserGuide_V1.0-10.png)
 
 Symbol.
