@@ -6,8 +6,8 @@ Allkin is a free, open-source hand-based symbol language, available as artwork v
 and as a font via Google Fonts and Monotype Fonts. Allkin means all human connection.
 The system contains 195 hand gestures — aligned to the 193 UN member states plus two observer states. Symbols are organised into categories: fundamental needs, social signs, emotional indicators, and conflict and peace advisories. Combined, they enable expressive, purpose-driven communication that informs and encourages peaceful resolution.
 
-![Sample Image](Allkin_Monotype_UserGuide_V1.0-3.png)
-![Sample Image](Allkin_Monotype_UserGuide_V1.0-3.png)
+![Sample Image](documentaion/Allkin_Monotype_UserGuide_V1.0-3.png)
+![Sample Image](documentation/Allkin_Monotype_UserGuide_V1.0-3.png)
 
 ## About
 
