@@ -4,8 +4,8 @@ Download User Guide:
 
 https://github.com/michaelhoffmannmonotype/Allkin/blob/main/documentation/Allkin_Monotype_UserGuide_V1.0.pdf
 
-
-
+ 
+ 
 Overview.
 
 Allkin is a free, open-source hand-based symbol language, available as artwork via The Noun Project
