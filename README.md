@@ -58,12 +58,14 @@
 [Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FGlyphsetChecks.json
 
 Allkin is a collection of 195 icons and 1 master symbol, which explores the power of design in times of peace and conflict. Whether on the front lines or far removed, users of Allkin can contribute meaningfully through symbolic gestures, expressing thoughts and messages for peace that cross cultural and language barriers.
+
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
 
 ## About
 
-Description of you and/or organisation goes here.
+Monotype Imaging Inc. is a leader in the field of type design and technology across the globe. Monotype specializes in the design, development, licensing, and management of typefaces and font technologies for creative professionals and businesses.
+
 
 ## Building
 
