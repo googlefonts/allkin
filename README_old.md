@@ -42,7 +42,7 @@
 
 ---
 
-# Allkin
+# My Font
 
 [![][Fontspector]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
 [![][OpenType]](https://googlefonts.github.io/googlefonts-project-template/fontspector/fontspector-report.html)
@@ -57,7 +57,10 @@
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FOutlineCorrectnessChecks.json
 [Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgooglefonts.github.io%2Fgooglefonts-project-template%2Fbadges%2FGlyphsetChecks.json
 
-Allkin is a collection of 195 icons and 1 master symbol, which explores the power of design in times of peace and conflict. Whether on the front lines or far removed, users of Allkin can contribute meaningfully through symbolic gestures, expressing thoughts and messages for peace that cross cultural and language barriers.
+Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+
+Don't hesitate to create images!
+
 ![Sample Image](documentation/image1.png)
 ![Sample Image](documentation/image2.png)
 
