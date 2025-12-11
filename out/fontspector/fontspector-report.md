@@ -12,6 +12,395 @@ fontspector version: 1.5.0
 
 
 
+<details><summary>[14] fonts/ttf/Allkin-Regular.ttf</summary>
+<div>
+
+
+<details>
+    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? (whitespace_glyphs)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0 [code: missing-whitespace-glyph-0x00A0]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. (googlefonts/glyphsets/shape_languages)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>🔥 <b>FAIL</b> Name table strings must not contain the string 'Reserved Font Name'. (googlefonts/name/rfn)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- 🔥 **FAIL** Name table entry contains "Reserved Font Name":
+	"Copyright © 2025 Monotype Imaging Inc., with Reserved Font Name Allkin."
+
+This is bad except in a few specific rare cases. [code: rfn]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>🔥 <b>FAIL</b> Directory name in GFonts repo structure must
+    match NameID 1 of the regular. (googlefonts/repo/dirname_matches_nameid_1)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- 🔥 **FAIL** Family name on the name table ('Allkin') does not match directory name in the repo structure ('ttf'). Expected 'allkin'. [code: mismatch]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure font can render its own name. (googlefonts/render_own_name)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- 🔥 **FAIL** .notdef glyphs were found when attempting to render Allkin [code: render-own-name]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema (googlefonts/vertical_metrics)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1200 when it should be at least 2400 [code: bad-hhea-range]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. (contour_count)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are
+     inferred from the typical amounts of contours observed in a
+     large collection of reference font families. The divergences
+     listed below may simply indicate a significantly different
+     design on some of your glyphs. On the other hand, some of these
+     may flag actual bugs in the font such as glyphs mapped to an
+     incorrect codepoint. Please consider reviewing the design and
+     codepoint assignment of these to make sure they are correct.
+
+
+    The following glyphs do not have the recommended number of contours:
+* cold (U+E04F): found 3, expected one of: {21, 2, 15}
+* hurt (U+E061): found 25, expected one of: {4, 6, 2}
+* attack (U+E073): found 4, expected one of: {2, 1, 11}
+* transport_ground (U+E087): found 8, expected one of: {3, 13, 2}
+* three_us_china (U+E0A7): found 3, expected one of: {4, 1, 2}
+* three_japan (U+E0A8): found 2, expected one of: {9, 3, 1}
+* five_japan (U+E0AE): found 4, expected one of: {2, 3, 1}
+* converge (U+E0B6): found 2, expected one of: {5, 1, 8} [code: contour-count]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? (gpos_kerning_info)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure indic fonts have the Indian Rupee Sign glyph. (rupee)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** Font is missing the Indian Rupee Sign glyph. Please add a glyph for Indian Rupee Sign (₹) at codepoint U+20B9. [code: missing-rupee]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Font has correct separator glyphs? (googlefonts/separator_glyphs)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** The following separator glyphs are missing:
+
+* U+2028
+* U+2029 [code: missing-separator-glyphs]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? (outline_colinear_vectors)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** The following glyphs have colinear vectors:
+
+* ok (U+E010): Line { p0: (389.0, 837.0), p1: (418.0, 585.0) } -> Line { p0: (418.0, 585.0), p1: (431.0, 420.0) }
+* payment_japan (U+E02B): Line { p0: (619.0, 437.0), p1: (454.0, 428.0) } -> Line { p0: (454.0, 428.0), p1: (200.0, 422.0) }
+* speak (U+E034): Line { p0: (314.0, 918.0), p1: (403.0, 926.0) } -> Line { p0: (403.0, 926.0), p1: (446.0, 930.0) }
+* calm (U+E04E): Line { p0: (619.0, 437.0), p1: (454.0, 428.0) } -> Line { p0: (454.0, 428.0), p1: (200.0, 422.0) }
+* curious (U+E053): Line { p0: (85.0, 423.0), p1: (98.0, 588.0) } -> Line { p0: (98.0, 588.0), p1: (127.0, 840.0) }
+* curious (U+E053): Line { p0: (796.0, 840.0), p1: (825.0, 588.0) } -> Line { p0: (825.0, 588.0), p1: (838.0, 423.0) }
+* perfect (U+E08E): Line { p0: (85.0, 413.0), p1: (98.0, 578.0) } -> Line { p0: (98.0, 578.0), p1: (127.0, 830.0) }
+* perfect_italy (U+E08F): Line { p0: (705.0, 492.0), p1: (471.0, 588.0) } -> Line { p0: (471.0, 588.0), p1: (320.0, 657.0) }
+* clarifying (U+E091): Line { p0: (314.0, 878.0), p1: (403.0, 886.0) } -> Line { p0: (403.0, 886.0), p1: (446.0, 890.0) }
+* three_japan (U+E0A8): Line { p0: (205.0, 552.0), p1: (204.0, 586.0) } -> Line { p0: (204.0, 586.0), p1: (204.0, 692.0) }
+* container (U+E0B5): Line { p0: (314.0, 910.0), p1: (403.0, 918.0) } -> Line { p0: (403.0, 918.0), p1: (446.0, 922.0) }
+* container (U+E0B5): Line { p0: (614.0, 922.0), p1: (657.0, 918.0) } -> Line { p0: (657.0, 918.0), p1: (746.0, 910.0) }
+* far (U+E0B8): Line { p0: (85.0, 421.0), p1: (98.0, 586.0) } -> Line { p0: (98.0, 586.0), p1: (127.0, 838.0) }
+* far (U+E0B8): Line { p0: (796.0, 838.0), p1: (825.0, 586.0) } -> Line { p0: (825.0, 586.0), p1: (838.0, 421.0) }
+* symbol (U+E0C4): Line { p0: (419.0, 640.0), p1: (508.0, 731.0) } -> Line { p0: (508.0, 731.0), p1: (527.0, 750.0) }
+* symbol (U+E0C4): Line { p0: (545.0, 560.0), p1: (456.0, 469.0) } -> Line { p0: (456.0, 469.0), p1: (436.0, 450.0) } [code: found-colinear-vectors]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? (outline_jaggy_segments)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** The following glyphs have jaggy segments:
+
+* safe (U+E008): Line(Line { p0: (343.0, 824.0), p1: (500.0, 825.0) })/Quad(QuadBez { p0: (500.0, 825.0), p1: (464.0, 832.0), p2: (464.0, 873.0) }) = 11.368477187480158
+* safe (U+E008): Line(Line { p0: (652.0, 378.0), p1: (495.0, 377.0) })/Quad(QuadBez { p0: (495.0, 377.0), p1: (531.0, 370.0), p2: (531.0, 329.0) }) = 11.368477187480158
+* speak (U+E034): Line(Line { p0: (286.0, 926.0), p1: (239.0, 890.0) })/Line(Line { p0: (239.0, 890.0), p1: (282.0, 936.0) }) = 9.480009209430257
+* when (U+E042): Line(Line { p0: (618.0, 573.0), p1: (505.0, 681.0) })/Quad(QuadBez { p0: (505.0, 681.0), p1: (526.0, 651.0), p2: (497.0, 622.0) }) = 11.304043299458481
+* heart02_korea (U+E05E): Line(Line { p0: (460.0, 780.0), p1: (350.0, 668.0) })/Quad(QuadBez { p0: (350.0, 668.0), p1: (379.0, 689.0), p2: (409.0, 659.0) }) = 9.606441150587191
+* serenity (U+E06B): Quad(QuadBez { p0: (693.5, 563.0), p1: (689.0, 589.0), p2: (670.0, 597.0) })/Line(Line { p0: (670.0, 597.0), p1: (917.0, 544.0) }) = 10.723056410263125
+* shyness (U+E06D): Line(Line { p0: (652.0, 599.0), p1: (495.0, 598.0) })/Quad(QuadBez { p0: (495.0, 598.0), p1: (531.0, 591.0), p2: (531.0, 550.0) }) = 11.368477187480158
+* shyness (U+E06D): Quad(QuadBez { p0: (879.0, 550.0), p1: (879.0, 591.0), p2: (915.0, 598.0) })/Line(Line { p0: (915.0, 598.0), p1: (758.0, 599.0) }) = 11.368477187480158
+* evacuate (U+E07A): Line(Line { p0: (296.0, 708.0), p1: (375.0, 573.0) })/Quad(QuadBez { p0: (375.0, 573.0), p1: (363.0, 608.0), p2: (399.0, 628.0) }) = 11.410894095537635
+* clarifying (U+E091): Line(Line { p0: (286.0, 886.0), p1: (239.0, 850.0) })/Line(Line { p0: (239.0, 850.0), p1: (282.0, 896.0) }) = 9.480009209430257
+* container (U+E0B5): Line(Line { p0: (286.0, 918.0), p1: (239.0, 882.0) })/Line(Line { p0: (239.0, 882.0), p1: (282.0, 928.0) }) = 9.480009209430257
+* container (U+E0B5): Line(Line { p0: (778.0, 928.0), p1: (821.0, 882.0) })/Line(Line { p0: (821.0, 882.0), p1: (774.0, 918.0) }) = 9.480009209430257
+* converge (U+E0B6): Quad(QuadBez { p0: (442.0, 752.0), p1: (478.0, 732.0), p2: (466.0, 697.0) })/Line(Line { p0: (466.0, 697.0), p1: (545.0, 832.0) }) = 11.410894095537635
+* converge (U+E0B6): Line(Line { p0: (759.0, 832.0), p1: (838.0, 697.0) })/Quad(QuadBez { p0: (838.0, 697.0), p1: (826.0, 732.0), p2: (862.0, 752.0) }) = 11.410894095537635
+* more (U+E0BC): Line(Line { p0: (548.0, 801.0), p1: (429.0, 699.0) })/Quad(QuadBez { p0: (429.0, 699.0), p1: (461.0, 717.0), p2: (487.0, 685.0) }) = 11.243541102213227
+* picture (U+E0BE): Line(Line { p0: (343.0, 824.0), p1: (500.0, 825.0) })/Quad(QuadBez { p0: (500.0, 825.0), p1: (464.0, 832.0), p2: (464.0, 873.0) }) = 11.368477187480158
+* picture (U+E0BE): Line(Line { p0: (652.0, 378.0), p1: (495.0, 377.0) })/Quad(QuadBez { p0: (495.0, 377.0), p1: (531.0, 370.0), p2: (531.0, 329.0) }) = 11.368477187480158 [code: found-jaggy-segments]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? (outline_semi_vertical)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+* safe (U+E008): Line(Line { p0: (343.0, 824.0), p1: (500.0, 825.0) })
+* safe (U+E008): Line(Line { p0: (652.0, 378.0), p1: (495.0, 377.0) })
+* connection (U+E01A): Line(Line { p0: (218.0, 662.0), p1: (220.0, 914.0) })
+* connection (U+E01A): Line(Line { p0: (305.0, 904.0), p1: (303.0, 657.0) })
+* connection (U+E01A): Line(Line { p0: (741.0, 657.0), p1: (739.0, 904.0) })
+* connection (U+E01A): Line(Line { p0: (824.0, 914.0), p1: (826.0, 662.0) })
+* faster (U+E01E): Line(Line { p0: (579.0, 296.0), p1: (444.0, 295.0) })
+* speakup (U+E036): Line(Line { p0: (579.0, 296.0), p1: (444.0, 295.0) })
+* flourishing (U+E058): Line(Line { p0: (718.0, 684.0), p1: (717.0, 926.0) })
+* flourishing (U+E058): Line(Line { p0: (461.0, 926.0), p1: (460.0, 684.0) })
+* shyness (U+E06D): Line(Line { p0: (652.0, 599.0), p1: (495.0, 598.0) })
+* shyness (U+E06D): Line(Line { p0: (915.0, 598.0), p1: (758.0, 599.0) })
+* death_western (U+E078): Line(Line { p0: (461.0, 926.0), p1: (460.0, 684.0) })
+* picture (U+E0BE): Line(Line { p0: (343.0, 824.0), p1: (500.0, 825.0) })
+* picture (U+E0BE): Line(Line { p0: (652.0, 378.0), p1: (495.0, 377.0) }) [code: found-semi-vertical]
+  
+  
+
+</div>
+</details>
+
+
+
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (googlefonts/meta/script_lang_tags)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+  
+  
+
+</div>
+</details>
+
+
+</div>
+</details>
+
+
 <details><summary>[3] fonts/ttf</summary>
 <div>
 
@@ -398,400 +787,11 @@ But instead we have got:
 
 - ⚠️ **WARN** fonts/ttf/Allkin-Regular.ttf: The following codepoints supported by the font are not covered by any subsets defined in the font's metadata file, and will never be served. You can solve this by either manually adding additional subset declarations to METADATA.pb, or by editing the glyphset definitions.
 
-* U+0000 : try adding one of: kayah-li, warang-citi, kannada, meroitic-hieroglyphs, medefaidrin, new-tai-lue, bassa-vah, cuneiform, greek-ext, lisu, modi, nag-mundari, yi, indic-siyaq-numbers, gurmukhi, osmanya, yezidi, toto, kirat-rai, wancho, znamenny, marchen, grantha, old-hungarian, linear-a, sogdian, tirhuta, tangsa, bhaiksuki, adlam, balinese, chinese-traditional, cherokee, chinese-simplified, gunjala-gondi, masaram-gondi, arabic, lycian, dives-akuru, cypro-minoan, bamum, lao, glagolitic, hanunoo, music, dogra, old-uyghur, palmyrene, lydian, shavian, gurung-khema, gujarati, old-permic, ol-onal, oriya, symbols2, tai-tham, inscriptional-parthian, makasar, kharoshthi, ogham, chakma, siddham, soyombo, sunuwar, tagalog, cyrillic-ext, greek, old-persian, canadian-aboriginal, tifinagh, zanabazar-square, mro, braille, sinhala, tamil-supplement, mandaic, bengali, vietnamese, devanagari, todhri, mongolian, coptic, old-turkic, old-south-arabian, multani, khudawadi, mende-kikakui, ethiopic, nko, khitan-small-script, ol-chiki, old-north-arabian, tai-viet, hebrew, saurashtra, psalter-pahlavi, avestan, sundanese, cyrillic, myanmar, nyiakeng-puachue-hmong, ottoman-siyaq-numbers, phoenician, tamil, khmer, runic, deseret, batak, japanese, miao, symbols, tangut, egyptian-hieroglyphs, kawi, old-italic, osage, signwriting, syloti-nagri, kana-extended, buginese, javanese, nabataean, takri, caucasian-albanian, telugu, meetei-mayek, rejang, tagbanwa, thaana, old-sogdian, meroitic, syriac, nushu, thai, tai-le, ugaritic, georgian, mahajani, mayan-numerals, korean, duployan, elymaic, pau-cin-hau, vai, math, latin-ext, vithkuqi, phags-pa, lepcha, ahom, malayalam, carian, linear-b, imperial-aramaic, manichaean, pahawh-hmong, samaritan, tulu-tigalari, cham, chorasmian, hanifi-rohingya, meroitic-cursive, tibetan, garay, brahmi, sharada, kaithi, limbu, newa, nandinagari, latin, buhid, khojki, sora-sompeng, cypriot, elbasan, inscriptional-pahlavi, armenian, hatran, anatolian-hieroglyphs, chinese-hongkong, gothic
-* U+000D : try adding one of: gunjala-gondi, javanese, batak, pau-cin-hau, carian, chinese-hongkong, cyrillic-ext, mende-kikakui, ethiopic, modi, tifinagh, cuneiform, devanagari, indic-siyaq-numbers, chinese-traditional, pahawh-hmong, hanifi-rohingya, kaithi, georgian, bassa-vah, mahajani, medefaidrin, masaram-gondi, myanmar, nandinagari, signwriting, tirhuta, syriac, sharada, syloti-nagri, newa, sogdian, lydian, malayalam, dogra, takri, grantha, glagolitic, korean, lycian, meroitic, old-italic, tagalog, garay, tangut, anatolian-hieroglyphs, elbasan, latin-ext, symbols, todhri, chorasmian, coptic, limbu, vietnamese, shavian, bengali, vai, runic, hatran, tulu-tigalari, vithkuqi, wancho, egyptian-hieroglyphs, tamil, balinese, cypriot, deseret, imperial-aramaic, bhaiksuki, japanese, lepcha, mro, sunuwar, samaritan, telugu, tibetan, nag-mundari, yi, gujarati, meroitic-cursive, buhid, avestan, linear-b, toto, mandaic, sinhala, osmanya, palmyrene, soyombo, mongolian, ottoman-siyaq-numbers, kana-extended, lisu, phoenician, tagbanwa, meetei-mayek, znamenny, chakma, warang-citi, gothic, music, old-sogdian, marchen, math, ol-chiki, cham, lao, old-turkic, nko, osage, armenian, khmer, siddham, ol-onal, hanunoo, nushu, khojki, kirat-rai, latin, linear-a, kayah-li, old-hungarian, tai-le, cherokee, greek, ahom, new-tai-lue, saurashtra, thai, inscriptional-pahlavi, braille, yezidi, zanabazar-square, tai-viet, old-north-arabian, inscriptional-parthian, tai-tham, manichaean, old-south-arabian, caucasian-albanian, thaana, bamum, sora-sompeng, meroitic-hieroglyphs, dives-akuru, kawi, khitan-small-script, makasar, gurung-khema, nyiakeng-puachue-hmong, multani, gurmukhi, miao, old-permic, kharoshthi, old-uyghur, buginese, oriya, khudawadi, arabic, brahmi, phags-pa, psalter-pahlavi, cyrillic, rejang, sundanese, symbols2, canadian-aboriginal, ugaritic, cypro-minoan, duployan, tamil-supplement, nabataean, chinese-simplified, adlam, elymaic, greek-ext, hebrew, kannada, mayan-numerals, ogham, old-persian, tangsa
-* U+0020 SPACE: try adding one of: shavian, limbu, bamum, meroitic-hieroglyphs, bassa-vah, nabataean, siddham, symbols, syriac, buhid, indic-siyaq-numbers, ethiopic, bhaiksuki, pau-cin-hau, chinese-hongkong, lepcha, ogham, dives-akuru, kannada, dogra, mahajani, ol-onal, old-permic, telugu, tangut, kayah-li, todhri, hanunoo, tamil-supplement, linear-a, khojki, khudawadi, ugaritic, ahom, osmanya, chinese-traditional, grantha, sundanese, caucasian-albanian, vai, sunuwar, hatran, saurashtra, avestan, manichaean, zanabazar-square, miao, old-hungarian, tangsa, garay, multani, ol-chiki, kaithi, kana-extended, old-uyghur, mayan-numerals, braille, mongolian, nag-mundari, tibetan, tulu-tigalari, egyptian-hieroglyphs, korean, tai-tham, lycian, music, brahmi, elymaic, kharoshthi, oriya, toto, old-south-arabian, sora-sompeng, makasar, myanmar, tai-viet, lisu, bengali, cuneiform, meetei-mayek, georgian, pahawh-hmong, marchen, javanese, vietnamese, thai, cyrillic, znamenny, malayalam, warang-citi, carian, masaram-gondi, anatolian-hieroglyphs, old-persian, newa, canadian-aboriginal, samaritan, khmer, batak, arabic, lydian, gothic, phags-pa, old-italic, rejang, math, tagalog, yi, mende-kikakui, japanese, greek, inscriptional-parthian, osage, armenian, cham, coptic, cyrillic-ext, adlam, buginese, hanifi-rohingya, lao, modi, medefaidrin, soyombo, tamil, kirat-rai, tagbanwa, thaana, runic, cherokee, chakma, greek-ext, psalter-pahlavi, sogdian, tifinagh, nko, vithkuqi, yezidi, latin-ext, kawi, balinese, imperial-aramaic, meroitic, old-sogdian, old-north-arabian, syloti-nagri, symbols2, gurmukhi, takri, meroitic-cursive, sinhala, chorasmian, mro, latin, phoenician, gujarati, old-turkic, glagolitic, nandinagari, mandaic, ottoman-siyaq-numbers, elbasan, duployan, wancho, gurung-khema, khitan-small-script, palmyrene, linear-b, new-tai-lue, sharada, signwriting, cypriot, nyiakeng-puachue-hmong, nushu, chinese-simplified, cypro-minoan, deseret, gunjala-gondi, hebrew, tai-le, tirhuta, devanagari, inscriptional-pahlavi
+* U+0000 : try adding one of: cherokee, mro, deseret, sunuwar, bhaiksuki, tagalog, toto, todhri, symbols, caucasian-albanian, old-south-arabian, indic-siyaq-numbers, marchen, thai, devanagari, meroitic-hieroglyphs, samaritan, lepcha, vithkuqi, meroitic-cursive, gurmukhi, newa, tai-viet, modi, tangsa, telugu, old-hungarian, garay, anatolian-hieroglyphs, ogham, old-turkic, makasar, tai-le, tulu-tigalari, mongolian, egyptian-hieroglyphs, old-permic, tamil-supplement, saurashtra, znamenny, sinhala, sundanese, kaithi, runic, syriac, bamum, ethiopic, gurung-khema, avestan, old-sogdian, ottoman-siyaq-numbers, armenian, siddham, khojki, osmanya, lao, signwriting, imperial-aramaic, mayan-numerals, tifinagh, hanifi-rohingya, khitan-small-script, buhid, chinese-hongkong, syloti-nagri, tamil, pau-cin-hau, glagolitic, manichaean, ugaritic, zanabazar-square, gunjala-gondi, meroitic, bassa-vah, elymaic, batak, nabataean, nandinagari, osage, nag-mundari, takri, mandaic, cham, latin-ext, nyiakeng-puachue-hmong, meetei-mayek, kharoshthi, sogdian, warang-citi, oriya, yi, korean, ol-onal, tai-tham, kawi, kannada, adlam, myanmar, inscriptional-parthian, ahom, palmyrene, sharada, tirhuta, cypro-minoan, malayalam, vietnamese, cyrillic, miao, tibetan, inscriptional-pahlavi, javanese, canadian-aboriginal, symbols2, carian, grantha, ol-chiki, chinese-traditional, vai, coptic, bengali, elbasan, japanese, yezidi, gujarati, cuneiform, psalter-pahlavi, linear-a, kirat-rai, braille, arabic, greek-ext, gothic, masaram-gondi, music, lisu, new-tai-lue, latin, rejang, dives-akuru, buginese, nko, old-persian, hatran, pahawh-hmong, mahajani, medefaidrin, duployan, phoenician, sora-sompeng, dogra, chinese-simplified, cyrillic-ext, soyombo, chorasmian, old-italic, cypriot, hebrew, lydian, mende-kikakui, kayah-li, khudawadi, old-north-arabian, georgian, old-uyghur, shavian, thaana, phags-pa, tagbanwa, limbu, brahmi, multani, wancho, greek, balinese, math, kana-extended, khmer, nushu, linear-b, chakma, hanunoo, lycian, tangut
+* U+000D : try adding one of: pau-cin-hau, tagalog, duployan, toto, inscriptional-parthian, meetei-mayek, miao, tifinagh, yi, grantha, bassa-vah, chakma, oriya, armenian, brahmi, glagolitic, old-south-arabian, old-sogdian, old-north-arabian, malayalam, mandaic, runic, tai-viet, myanmar, tamil, balinese, caucasian-albanian, egyptian-hieroglyphs, mayan-numerals, latin, old-hungarian, japanese, psalter-pahlavi, devanagari, soyombo, syriac, tangsa, tibetan, wancho, gujarati, limbu, greek, nag-mundari, chinese-hongkong, manichaean, sinhala, tirhuta, vai, linear-b, sundanese, cyrillic-ext, georgian, indic-siyaq-numbers, osage, korean, ahom, carian, chorasmian, nyiakeng-puachue-hmong, buhid, mende-kikakui, khitan-small-script, inscriptional-pahlavi, thai, bhaiksuki, marchen, yezidi, samaritan, hatran, sunuwar, new-tai-lue, old-italic, old-uyghur, siddham, cypro-minoan, chinese-simplified, chinese-traditional, javanese, khmer, tulu-tigalari, lydian, latin-ext, cuneiform, shavian, kannada, newa, lepcha, warang-citi, dogra, palmyrene, cham, elbasan, pahawh-hmong, cherokee, mongolian, vietnamese, meroitic-cursive, thaana, kharoshthi, multani, symbols, tamil-supplement, canadian-aboriginal, bengali, math, zanabazar-square, signwriting, tai-le, lao, nandinagari, takri, ottoman-siyaq-numbers, arabic, gothic, symbols2, telugu, vithkuqi, old-turkic, phoenician, ogham, meroitic-hieroglyphs, ol-onal, kana-extended, rejang, old-permic, dives-akuru, greek-ext, meroitic, coptic, kaithi, music, avestan, khudawadi, gurmukhi, mro, todhri, deseret, khojki, medefaidrin, modi, sogdian, kirat-rai, makasar, nabataean, tangut, adlam, cyrillic, batak, kayah-li, lycian, nushu, gurung-khema, old-persian, buginese, osmanya, hanunoo, lisu, sora-sompeng, tagbanwa, tai-tham, imperial-aramaic, hanifi-rohingya, bamum, gunjala-gondi, masaram-gondi, ol-chiki, kawi, braille, mahajani, sharada, hebrew, nko, elymaic, phags-pa, ethiopic, cypriot, garay, linear-a, syloti-nagri, saurashtra, ugaritic, znamenny, anatolian-hieroglyphs
+* U+0020 SPACE: try adding one of: yi, sinhala, hanifi-rohingya, gujarati, hatran, kana-extended, phoenician, symbols2, miao, hanunoo, imperial-aramaic, runic, braille, chorasmian, nabataean, ottoman-siyaq-numbers, warang-citi, deseret, khmer, ol-chiki, meetei-mayek, vai, medefaidrin, meroitic-cursive, old-permic, tamil, tangsa, toto, old-north-arabian, vithkuqi, tulu-tigalari, linear-a, mongolian, sora-sompeng, balinese, malayalam, lycian, elbasan, tifinagh, syriac, kannada, devanagari, gurung-khema, japanese, mende-kikakui, modi, nko, cyrillic, kharoshthi, music, kirat-rai, old-sogdian, adlam, cyrillic-ext, signwriting, soyombo, avestan, myanmar, ogham, buhid, nag-mundari, inscriptional-pahlavi, ugaritic, javanese, chinese-traditional, greek-ext, mro, old-hungarian, coptic, symbols, canadian-aboriginal, georgian, tibetan, inscriptional-parthian, ol-onal, lepcha, psalter-pahlavi, ahom, duployan, mahajani, batak, sharada, khitan-small-script, sundanese, mandaic, old-uyghur, bamum, chakma, armenian, cypro-minoan, kaithi, caucasian-albanian, khojki, shavian, arabic, kayah-li, cherokee, math, phags-pa, tamil-supplement, old-italic, marchen, carian, telugu, old-south-arabian, old-turkic, pau-cin-hau, multani, vietnamese, tai-le, tai-tham, kawi, grantha, egyptian-hieroglyphs, linear-b, ethiopic, cuneiform, mayan-numerals, meroitic, pahawh-hmong, osage, siddham, znamenny, manichaean, tangut, tirhuta, chinese-simplified, palmyrene, limbu, thaana, old-persian, bhaiksuki, chinese-hongkong, cham, khudawadi, masaram-gondi, korean, indic-siyaq-numbers, greek, new-tai-lue, oriya, rejang, todhri, gunjala-gondi, yezidi, gurmukhi, newa, takri, thai, latin-ext, meroitic-hieroglyphs, tagalog, hebrew, bassa-vah, syloti-nagri, dogra, nyiakeng-puachue-hmong, anatolian-hieroglyphs, cypriot, brahmi, makasar, zanabazar-square, bengali, elymaic, garay, saurashtra, sogdian, buginese, glagolitic, dives-akuru, lao, lisu, osmanya, lydian, samaritan, gothic, sunuwar, latin, nandinagari, tagbanwa, tai-viet, nushu, wancho
 
 Or you can add the above codepoints to one of the subsets supported by the font:  [code: unreachable-subsetting]
-  
-  
-
-</div>
-</details>
-
-
-</div>
-</details>
-
-
-<details><summary>[14] fonts/ttf/Allkin-Regular.ttf</summary>
-<div>
-
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? (whitespace_glyphs)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0 [code: missing-whitespace-glyph-0x00A0]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. (googlefonts/glyphsets/shape_languages)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>🔥 <b>FAIL</b> Name table strings must not contain the string 'Reserved Font Name'. (googlefonts/name/rfn)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- 🔥 **FAIL** Name table entry contains "Reserved Font Name":
-	"Copyright © 2025 Monotype Imaging Inc., with Reserved Font Name Allkin."
-
-This is bad except in a few specific rare cases. [code: rfn]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>🔥 <b>FAIL</b> Directory name in GFonts repo structure must
-    match NameID 1 of the regular. (googlefonts/repo/dirname_matches_nameid_1)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- 🔥 **FAIL** Family name on the name table ('Allkin') does not match directory name in the repo structure ('ttf'). Expected 'allkin'. [code: mismatch]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure font can render its own name. (googlefonts/render_own_name)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- 🔥 **FAIL** .notdef glyphs were found when attempting to render Allkin [code: render-own-name]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema (googlefonts/vertical_metrics)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1200 when it should be at least 2400 [code: bad-hhea-range]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. (contour_count)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are
-     inferred from the typical amounts of contours observed in a
-     large collection of reference font families. The divergences
-     listed below may simply indicate a significantly different
-     design on some of your glyphs. On the other hand, some of these
-     may flag actual bugs in the font such as glyphs mapped to an
-     incorrect codepoint. Please consider reviewing the design and
-     codepoint assignment of these to make sure they are correct.
-
-
-    The following glyphs do not have the recommended number of contours:
-* confidence (U+E04F): found 3, expected one of: {15, 21, 2}
-* joy (U+E061): found 5, expected one of: {4, 2, 6}
-* break (U+E073): found 3, expected one of: {11, 2, 1}
-* death_western (U+E077): found 1, expected one of: {3, 2, 9}
-* three_us_china (U+E0A7): found 3, expected one of: {2, 4, 1}
-* three_japan (U+E0A8): found 2, expected one of: {3, 9, 1}
-* five_japan (U+E0AE): found 4, expected one of: {3, 2, 1}
-* converge (U+E0B6): found 2, expected one of: {5, 8, 1} [code: contour-count]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? (gpos_kerning_info)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure indic fonts have the Indian Rupee Sign glyph. (rupee)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** Font is missing the Indian Rupee Sign glyph. Please add a glyph for Indian Rupee Sign (₹) at codepoint U+20B9. [code: missing-rupee]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Font has correct separator glyphs? (googlefonts/separator_glyphs)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** The following separator glyphs are missing:
-
-* U+2028
-* U+2029 [code: missing-separator-glyphs]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? (outline_colinear_vectors)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** The following glyphs have colinear vectors:
-
-* ok (U+E010): Line { p0: (389.0, 837.0), p1: (418.0, 585.0) } -> Line { p0: (418.0, 585.0), p1: (431.0, 420.0) }
-* payment_japan (U+E02B): Line { p0: (619.0, 437.0), p1: (454.0, 428.0) } -> Line { p0: (454.0, 428.0), p1: (200.0, 422.0) }
-* speak (U+E034): Line { p0: (314.0, 918.0), p1: (403.0, 926.0) } -> Line { p0: (403.0, 926.0), p1: (446.0, 930.0) }
-* calm (U+E04D): Line { p0: (619.0, 437.0), p1: (454.0, 428.0) } -> Line { p0: (454.0, 428.0), p1: (200.0, 422.0) }
-* curious (U+E052): Line { p0: (90.0, 423.0), p1: (103.0, 588.0) } -> Line { p0: (103.0, 588.0), p1: (132.0, 840.0) }
-* curious (U+E052): Line { p0: (801.0, 840.0), p1: (830.0, 588.0) } -> Line { p0: (830.0, 588.0), p1: (843.0, 423.0) }
-* perfect (U+E08E): Line { p0: (85.0, 413.0), p1: (98.0, 578.0) } -> Line { p0: (98.0, 578.0), p1: (127.0, 830.0) }
-* perfect_italy (U+E08F): Line { p0: (705.0, 492.0), p1: (471.0, 588.0) } -> Line { p0: (471.0, 588.0), p1: (320.0, 657.0) }
-* clarifying (U+E091): Line { p0: (314.0, 878.0), p1: (403.0, 886.0) } -> Line { p0: (403.0, 886.0), p1: (446.0, 890.0) }
-* three_japan (U+E0A8): Line { p0: (205.0, 552.0), p1: (204.0, 586.0) } -> Line { p0: (204.0, 586.0), p1: (204.0, 692.0) }
-* container (U+E0B5): Line { p0: (314.0, 910.0), p1: (403.0, 918.0) } -> Line { p0: (403.0, 918.0), p1: (446.0, 922.0) }
-* container (U+E0B5): Line { p0: (614.0, 922.0), p1: (657.0, 918.0) } -> Line { p0: (657.0, 918.0), p1: (746.0, 910.0) }
-* far (U+E0B8): Line { p0: (90.0, 421.0), p1: (103.0, 586.0) } -> Line { p0: (103.0, 586.0), p1: (132.0, 838.0) }
-* far (U+E0B8): Line { p0: (801.0, 838.0), p1: (830.0, 586.0) } -> Line { p0: (830.0, 586.0), p1: (843.0, 421.0) }
-* symbol (U+E0C4): Line { p0: (419.0, 640.0), p1: (508.0, 731.0) } -> Line { p0: (508.0, 731.0), p1: (527.0, 750.0) }
-* symbol (U+E0C4): Line { p0: (545.0, 560.0), p1: (456.0, 469.0) } -> Line { p0: (456.0, 469.0), p1: (436.0, 450.0) } [code: found-colinear-vectors]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? (outline_jaggy_segments)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** The following glyphs have jaggy segments:
-
-* safe (U+E008): Line(Line { p0: (343.0, 824.0), p1: (500.0, 825.0) })/Quad(QuadBez { p0: (500.0, 825.0), p1: (464.0, 832.0), p2: (464.0, 873.0) }) = 11.368477187480158
-* safe (U+E008): Line(Line { p0: (652.0, 378.0), p1: (495.0, 377.0) })/Quad(QuadBez { p0: (495.0, 377.0), p1: (531.0, 370.0), p2: (531.0, 329.0) }) = 11.368477187480158
-* speak (U+E034): Line(Line { p0: (286.0, 926.0), p1: (239.0, 890.0) })/Line(Line { p0: (239.0, 890.0), p1: (282.0, 936.0) }) = 9.480009209430257
-* when (U+E041): Line(Line { p0: (618.0, 573.0), p1: (505.0, 681.0) })/Quad(QuadBez { p0: (505.0, 681.0), p1: (526.0, 651.0), p2: (497.0, 622.0) }) = 11.304043299458481
-* heart02_korea (U+E05D): Line(Line { p0: (460.0, 780.0), p1: (350.0, 668.0) })/Quad(QuadBez { p0: (350.0, 668.0), p1: (379.0, 689.0), p2: (409.0, 659.0) }) = 9.606441150587191
-* serenity (U+E06A): Quad(QuadBez { p0: (693.5, 563.0), p1: (689.0, 589.0), p2: (670.0, 597.0) })/Line(Line { p0: (670.0, 597.0), p1: (917.0, 544.0) }) = 10.723056410263125
-* shyness (U+E06C): Line(Line { p0: (652.0, 599.0), p1: (495.0, 598.0) })/Quad(QuadBez { p0: (495.0, 598.0), p1: (531.0, 591.0), p2: (531.0, 550.0) }) = 11.368477187480158
-* shyness (U+E06C): Quad(QuadBez { p0: (879.0, 550.0), p1: (879.0, 591.0), p2: (915.0, 598.0) })/Line(Line { p0: (915.0, 598.0), p1: (758.0, 599.0) }) = 11.368477187480158
-* evacuate (U+E079): Line(Line { p0: (296.0, 708.0), p1: (375.0, 573.0) })/Quad(QuadBez { p0: (375.0, 573.0), p1: (363.0, 608.0), p2: (399.0, 628.0) }) = 11.410894095537635
-* clarifying (U+E091): Line(Line { p0: (286.0, 886.0), p1: (239.0, 850.0) })/Line(Line { p0: (239.0, 850.0), p1: (282.0, 896.0) }) = 9.480009209430257
-* container (U+E0B5): Line(Line { p0: (286.0, 918.0), p1: (239.0, 882.0) })/Line(Line { p0: (239.0, 882.0), p1: (282.0, 928.0) }) = 9.480009209430257
-* container (U+E0B5): Line(Line { p0: (778.0, 928.0), p1: (821.0, 882.0) })/Line(Line { p0: (821.0, 882.0), p1: (774.0, 918.0) }) = 9.480009209430257
-* converge (U+E0B6): Quad(QuadBez { p0: (442.0, 752.0), p1: (478.0, 732.0), p2: (466.0, 697.0) })/Line(Line { p0: (466.0, 697.0), p1: (545.0, 832.0) }) = 11.410894095537635
-* converge (U+E0B6): Line(Line { p0: (759.0, 832.0), p1: (838.0, 697.0) })/Quad(QuadBez { p0: (838.0, 697.0), p1: (826.0, 732.0), p2: (862.0, 752.0) }) = 11.410894095537635
-* more (U+E0BC): Line(Line { p0: (548.0, 801.0), p1: (429.0, 699.0) })/Quad(QuadBez { p0: (429.0, 699.0), p1: (461.0, 717.0), p2: (487.0, 685.0) }) = 11.243541102213227
-* picture (U+E0BE): Line(Line { p0: (343.0, 824.0), p1: (500.0, 825.0) })/Quad(QuadBez { p0: (500.0, 825.0), p1: (464.0, 832.0), p2: (464.0, 873.0) }) = 11.368477187480158
-* picture (U+E0BE): Line(Line { p0: (652.0, 378.0), p1: (495.0, 377.0) })/Quad(QuadBez { p0: (495.0, 377.0), p1: (531.0, 370.0), p2: (531.0, 329.0) }) = 11.368477187480158 [code: found-jaggy-segments]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? (outline_semi_vertical)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-* safe (U+E008): Line(Line { p0: (343.0, 824.0), p1: (500.0, 825.0) })
-* safe (U+E008): Line(Line { p0: (652.0, 378.0), p1: (495.0, 377.0) })
-* connection (U+E01A): Line(Line { p0: (218.0, 662.0), p1: (220.0, 914.0) })
-* connection (U+E01A): Line(Line { p0: (305.0, 904.0), p1: (303.0, 657.0) })
-* connection (U+E01A): Line(Line { p0: (741.0, 657.0), p1: (739.0, 904.0) })
-* connection (U+E01A): Line(Line { p0: (824.0, 914.0), p1: (826.0, 662.0) })
-* faster (U+E01E): Line(Line { p0: (579.0, 296.0), p1: (444.0, 295.0) })
-* speakup (U+E036): Line(Line { p0: (579.0, 296.0), p1: (444.0, 295.0) })
-* flourishing (U+E057): Line(Line { p0: (718.0, 684.0), p1: (717.0, 926.0) })
-* flourishing (U+E057): Line(Line { p0: (461.0, 926.0), p1: (460.0, 684.0) })
-* shyness (U+E06C): Line(Line { p0: (652.0, 599.0), p1: (495.0, 598.0) })
-* shyness (U+E06C): Line(Line { p0: (915.0, 598.0), p1: (758.0, 599.0) })
-* death_western (U+E077): Line(Line { p0: (461.0, 926.0), p1: (460.0, 684.0) })
-* picture (U+E0BE): Line(Line { p0: (343.0, 824.0), p1: (500.0, 825.0) })
-* picture (U+E0BE): Line(Line { p0: (652.0, 378.0), p1: (495.0, 377.0) }) [code: found-semi-vertical]
-  
-  
-
-</div>
-</details>
-
-
-
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (googlefonts/meta/script_lang_tags)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
   
   
 
