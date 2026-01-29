@@ -1,12 +1,6 @@
 {
-.appVersion = "3436";
+.appVersion = "3507";
 .formatVersion = 3;
-DisplayStrings = (
-"/SideHand_Base",
-"/us",
-"/SideHand_Base",
-"/BackHand_Base"
-);
 customParameters = (
 {
 name = glyphOrder;
@@ -30132,7 +30126,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2025 Monotype Imaging Inc., with Reserved Font Name Allkin.";
+value = "Copyright 2025 The Allkin Project Authors (https://github.com/googlefonts/allkin), with Reserved Font Name \"Allkin\".";
 }
 );
 },
@@ -30154,13 +30148,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
